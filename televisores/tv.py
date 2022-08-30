@@ -11,7 +11,7 @@ class TV:
         self._estado: bool = estado
         self._volumen: int = 1
         self._control: Control = None
-        TV.numTV += 1
+        TV._numTV += 1
 
     def _canalValido(self, canal: int):
         MAX_CANAL: int = 120
