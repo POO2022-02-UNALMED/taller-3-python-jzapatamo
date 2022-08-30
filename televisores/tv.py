@@ -43,7 +43,7 @@ class TV:
     def getEstado(self):
         return self._estado
 
-    def setNumTV(self, numTV):
+    def setNumTV(numTV: int):
         TV._numTV = numTV
 
     def setMarca(self, marca: Marca):
