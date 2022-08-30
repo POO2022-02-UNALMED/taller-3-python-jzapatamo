@@ -7,10 +7,10 @@ class Control:
     def _validarEnlazado(self):
         return self._tv != None
 
-    def getTV(self):
+    def getTv(self):
         return self._tv
 
-    def setTV(self, tv):
+    def setTv(self, tv):
         self._tv = tv
 
     def enlazar(self, tv):
